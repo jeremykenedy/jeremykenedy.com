@@ -51,7 +51,7 @@ class AboutSectionService extends CmsServices
      */
     public static function getCmsAboutSection()
     {
-        $key = 'cms_intro_section';
+        $key = 'cms_about_section';
 
         if (self::checkIfItemIsCached($key)) {
             return self::getFromCache($key);
