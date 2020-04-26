@@ -14,7 +14,7 @@ class AboutSectionButtonsSeeder extends Seeder
     {
         $items = [
             [
-                'active'        => 1,
+                'active'        => 0,
                 'link'          => 'https://my.indeed.com/p/jerem-ykenedy',
                 'text'          => 'Hire Me',
                 'delay'         => 150,
@@ -22,7 +22,7 @@ class AboutSectionButtonsSeeder extends Seeder
                 'sort_order'    => 1,
             ],
             [
-                'active'        => 1,
+                'active'        => 0,
                 'link'          => 'https://s3-us-west-2.amazonaws.com/jeremykenedy.com/documents/JeremyKenedyResume.pdf',
                 'text'          => 'Download CV',
                 'delay'         => 300,

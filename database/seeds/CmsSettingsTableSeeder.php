@@ -17,7 +17,7 @@ class CmsSettingsTableSeeder extends Seeder
                 'name'      => 'CMS Cache',
                 'key'       => 'cms_cache',
                 'value'     => '100',
-                'active'    => 0,
+                'active'    => 1,
             ],
             [
                 'name'      => 'Logo Text',
